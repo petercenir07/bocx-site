@@ -1,0 +1,52 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#061018"/>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <path d="M600 154L846 254V434C846 588 728 710 600 760C472 710 354 588 354 434V254L600 154Z" fill="url(#shield)" stroke="rgba(126,232,255,0.55)" stroke-width="2"/>
+  <path d="M600 246L760 310V429C760 530 691 622 600 673C509 622 440 530 440 429V310L600 246Z" fill="url(#innerShield)" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M600 300V594" stroke="url(#center)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M517 446L578 507L689 395" stroke="#80E8FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="600" cy="446" r="276" stroke="rgba(126,232,255,0.18)" stroke-width="2"/>
+  <circle cx="600" cy="446" r="342" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <path d="M126 220C281 282 424 305 600 292C776 279 921 248 1074 188" stroke="url(#stream)" stroke-width="2"/>
+  <path d="M156 702C302 615 439 575 600 575C762 575 899 615 1046 702" stroke="url(#stream2)" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle cx="322" cy="280" r="8" fill="#80E8FF"/>
+    <circle cx="878" cy="262" r="8" fill="#80E8FF"/>
+    <circle cx="274" cy="650" r="7" fill="#80E8FF"/>
+    <circle cx="920" cy="646" r="7" fill="#80E8FF"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1420"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="600" y1="154" x2="600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102538"/>
+      <stop offset="1" stop-color="#0A1621"/>
+    </linearGradient>
+    <linearGradient id="innerShield" x1="600" y1="246" x2="600" y2="673" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163750"/>
+      <stop offset="1" stop-color="#0D1B28"/>
+    </linearGradient>
+    <linearGradient id="center" x1="600.5" y1="300" x2="600.5" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80E8FF" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#80E8FF"/>
+      <stop offset="1" stop-color="#80E8FF" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="126" y1="220" x2="1074" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80E8FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#80E8FF"/>
+      <stop offset="1" stop-color="#80E8FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stream2" x1="156" y1="702" x2="1046" y2="702" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80E8FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#80E8FF"/>
+      <stop offset="1" stop-color="#80E8FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="247" y="235" width="706" height="458" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+</svg>

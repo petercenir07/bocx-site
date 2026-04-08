@@ -1,0 +1,35 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#071019"/>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="142" y="170" width="916" height="520" rx="32" fill="#0A141E" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M236 250H964" stroke="rgba(126,232,255,0.22)" stroke-width="2"/>
+  <rect x="214" y="296" width="206" height="290" rx="22" fill="#0F2232"/>
+  <rect x="472" y="296" width="256" height="290" rx="22" fill="#11283A"/>
+  <rect x="780" y="296" width="206" height="290" rx="22" fill="#0F2232"/>
+  <path d="M258 338H374" stroke="#80E8FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M258 368H344" stroke="rgba(229,242,255,0.35)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M516 338H652" stroke="#80E8FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M516 368H626" stroke="rgba(229,242,255,0.35)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M824 338H940" stroke="#80E8FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M824 368H910" stroke="rgba(229,242,255,0.35)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M600 148L728 224H472L600 148Z" fill="url(#roof)"/>
+  <circle cx="600" cy="444" r="102" stroke="rgba(126,232,255,0.25)" stroke-width="2"/>
+  <circle cx="600" cy="444" r="10" fill="#80E8FF"/>
+  <path d="M600 342V546M498 444H702" stroke="rgba(126,232,255,0.24)" stroke-width="2"/>
+  <path d="M128 748C284 656 456 616 600 616C744 616 916 656 1072 748" stroke="url(#trace)" stroke-width="2"/>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09121B"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="600" y1="148" x2="600" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16344D"/>
+      <stop offset="1" stop-color="#0B1A28"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="128" y1="748" x2="1072" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80E8FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#80E8FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#80E8FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
